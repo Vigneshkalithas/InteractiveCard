@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+font-family: sans-serif;
+}
+
+.main{
+    display: flex;
+   
+}
+body{
+    min-height: 100vh;
+}
+.right{
+    width:30%;
+    min-height: 100vh;
+    background-image: url(./Assets/bg-main-desktop.png);
+}
+.left{
+    width:70%;
+    min-height:100vh;
+    background-color: whitesmoke;
+}
+
+.card-front{
+    width: 75%;
+    height: 300px;
+    background-image: url(./Assets/bg-card-front.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top:78px;
+    left: 200px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+
+}
+
+.card-back{
+    width: 75%;
+    height: 300px;
+    background-image: url(./Assets/bg-card-back.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top:368px;
+    left: 300px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+
+}
+.card-form{
+   position: absolute;
+   top:300px;
+   left: 900px;
+}
+label{
+    font-size: 12px;
+    color:#00004d;
+    letter-spacing:0.4px;
+}
+.inputs{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border:1.5px solid #00004d;
+}
+.month , .year{
+    width:65px;
+    height:30px;
+    border-radius: 5px;
+    border:1.5px solid #00004d;
+    
+}
+.cvc{
+    width: 145px;
+    height:30px;
+    border-radius: 5px;
+    border:1.5px solid #00004d;
+    margin-left: 10px;
+}
+.cvtxt{
+    margin-left: 39px;
+}
+
+input[type="submit"]{
+    width: 300px;
+    height: 40px;
+    color: white;
+    background-color:#220930;
+    border-radius: 5px;
+}
+.d-flex{
+    display: flex;
+}
+.jus-cen{
+    align-items: center;
+    gap:10px;
+}
+.p-3{
+    padding: 1rem;
+}
+/* .f-e{
+   gap:150px;
+} */
+.pos-end{
+    position: relative;
+    left: 200px;
+}
+.card-front h4{
+    color: white;
+}
+
+.white-circle{
+width:50px;
+height:50px;
+border-radius:50px;
+background-color: white;
+
+}
+.white-outline-circle{
+width: 20px;
+height: 20px;
+border-radius: 50px;
+border:1.5px solid white;
+}
+.card-no{
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    margin-top: 50px;
+}
+
+.cvc-txt-back{
+    position: relative;
+    top:110px;
+    left:360px;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 0.7px;
+    
+}
+::placeholder{
+padding: 7px;
+color: gray;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Link rel="stylesheet" href="./style.css"/> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="main">
+<div class="right">
+<div class="card-front">
+    <div class="d-flex p-3 jus-cen">
+        <div class="white-circle"></div>
+        <div class="white-outline-circle"></div>
+    </div>
+    <div class="card-no"
+    ><h1 id="outputNumber" class="p-3">9591 6489 6389 1012</h1></div>
+    <div class="d-flex p-3 f-e">
+        <h4 id="Card_Holder_Name">vignesh kalithas</h4>
+        <h4 class="pos-end"><span id="month">08</span>/<span id="year">2020</span></h4>
+    </div>
+</div>
+<div class="card-back">
+   <div class="cvc-txt-back">
+    <p id="cVc">154</p>
+   </div>
+</div>
+</div>
+<div class="left">
+    <div class="card-form">
+        <!-- <form> -->
+            <label for="cname">CARD HOLDR NAME</label><br>
+            <input class="inputs"  id="cardHolderName"  placeholder="e.g. Jane Appleseed" maxlength="17" type="text" id="cardNumber" name="cardNumber" required><br><br>
+            <label for="cnumber">CARD NUMBER</label><br>
+            <input class="inputs" id="cardNumber"  placeholder="e.g. 1234 5678 9123 0000" type="text"  minlength="19" maxlength="19"  name="cardHolderName" required><br><br>
+            <div>
+
+            </div>
+            <label for="date">EXP. DATE(MM/YY)</label>
+            <label class="cvtxt" for="cvc">CVC</label><br>
+            <input class="month" id="Month" type="text" maxlength="2" minlength="2" name="month" required >
+            <input class="year" id="Year" type="text" maxlength="2" minlength="2"  name="year" required >
+           
+            <input class="cvc" type="text" id="CvC" maxlength="3" minlength="3" name="CvC" ><br><br>
+            <input type="submit" value="Confirm" onclick=" confirmSubmit()">
+          <!-- </form> -->
+          <!-- onclick="confirmSubmit()" -->
+
+    </div>
+    
+</div>
+</div>
+    <script src="./script.js"></script>
+</body>
+</html>
